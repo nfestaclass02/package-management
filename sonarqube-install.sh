@@ -13,8 +13,8 @@ sudo chmod -R 775 /opt/sonarqube/
 hostname sonar
 sudo su - sonar
 ## 3. Enable PasswordAuthentication
-sudo sed -i "/^[^#]*PasswordAuthentication[[:space:]]no/c\PasswordAuthentication yes" /etc/ssh/sshd_config
-sudo service sshd restart
+#sudo sed -i "/^[^#]*PasswordAuthentication[[:space:]]no/c\PasswordAuthentication yes" /etc/ssh/sshd_config
+#sudo service sshd restart
 
 # 4. Install JAVA pre-requisite
 cd /opt
