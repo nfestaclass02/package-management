@@ -41,7 +41,7 @@ sudo systemctl status jenkins
 # Access Jenkins from the browser
 ```sh
 public-ip:8080
-curl ifconfig.co 
+curl ifconfig.io
 ```
 # get jenkins initial admin password
 ```sh
